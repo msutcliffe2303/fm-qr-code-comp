@@ -20,11 +20,9 @@ body{
   align-items: center;
   justify-content: center;
   flex-flow: column;
-
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
   font-family: var(--ff-primary);
   font-size: 0.9375rem;
   background-color: hsl(var(--clr-light-grey));
@@ -33,20 +31,26 @@ body{
 .qr-code-container {
   width: 325px;
   background-color: white;
-  border-radius: 1.5em;
-  padding: 1.75em;
+  border-radius: 1em;
+  padding: 1.25em;
   text-align: center;
   color: hsl(var(--clr-grayish-blue));
   box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.6);
   margin-bottom: 30px;
 }
 
-.qr-code-container > h1 {
-  color: hsl(var(--clr-dark-blue))
-}
-
 .qr-code-container > .qr-image {
-  border-radius: 1.5em;
+  border-radius: 1em;
   width: 100%;
   margin-inline: auto;
 }
+
+.qr-code-container > article {
+  padding: 0 0.75em;
+}
+
+.qr-code-container > article > h1 {
+  font-size: 1.45rem;
+  color: hsl(var(--clr-dark-blue))
+}
+
