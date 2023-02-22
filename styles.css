@@ -41,7 +41,7 @@ body{
   margin-bottom: 30px;
 }
 
-.qr-code-container > h2 {
+.qr-code-container > h1 {
   color: hsl(var(--clr-dark-blue))
 }
 
